@@ -1,0 +1,23 @@
+@import '../../global.scss';
+.logo {
+    color: $purple-color;
+    font: 28px Arial, Sans-serif; 
+}
+
+.menu {
+    ul {
+        list-style: none;
+        li {
+            display:inline;
+            a {
+                margin: 0 15px;
+            }
+        }
+
+    }
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
